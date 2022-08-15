@@ -228,7 +228,7 @@ Part 2:
     "© 20xx <last name here> development. All rights reserved."
 */
 
-function ChallengeWholePage() {
+function App() {
 
     return (
         <div>
@@ -239,7 +239,7 @@ function ChallengeWholePage() {
     );
 }
 
-ReactDOM.createRoot(document.getElementById("challenge5")).render(<ChallengeWholePage />)
+ReactDOM.createRoot(document.getElementById("challenge5")).render(<App />)
 
 
 /**
